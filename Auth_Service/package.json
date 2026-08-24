@@ -1,0 +1,29 @@
+{
+  "name": "auth_service",
+  "version": "1.0.0",
+  "description": "we are using this server to authenticate and authorize the user in three ways -> 1. normal , 2. gmail , 3. github ",
+  "homepage": "https://github.com/VinayCodes17/MediaShare_Platform#readme",
+  "bugs": {
+    "url": "https://github.com/VinayCodes17/MediaShare_Platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinayCodes17/MediaShare_Platform.git"
+  },
+  "license": "ISC",
+  "author": "Vinay Kumrawat",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3",
+    "morgan": "^1.11.0"
+  }
+}
