@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
 })
 
 // app.get('/auth/login',normalAuth)
-app.get('/auth/google',googleAuthRouter)
+app.use('/auth/google',googleAuthRouter)
 // app.get('/auth/github',githubAuth)
 
 export default app 
